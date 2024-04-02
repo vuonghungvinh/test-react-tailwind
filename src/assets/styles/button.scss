@@ -1,0 +1,35 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  transition: background-color 0.2s ease-out 0s, border-color, color, opacity;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  @apply opacity-80;
+}
+
+.btn-small {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+
+.btn-dark {
+  @apply bg-primary border border-primary;
+}
+.btn-dark:focus {
+  outline: none;
+}
+
+.btn-dark-outline {
+  @apply text-primary bg-white border border-primary;
+}

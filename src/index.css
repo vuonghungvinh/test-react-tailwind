@@ -1,0 +1,28 @@
+@tailwind base;
+@layer base {
+  body {
+    font-family: "Apercu Pro", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+      sans-serif !important;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0px;
+    min-height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 25, 25);
+    padding: 0px;
+    -webkit-font-smoothing: antialiased;
+  }
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    background-color: none;
+    background-image: none;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+@import 'assets/styles/apercupro.scss';
+@import 'assets/styles/button.scss';
+@import 'assets/styles/input.scss';
+@import 'assets/styles/icon.scss';
